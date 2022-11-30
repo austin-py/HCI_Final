@@ -1,0 +1,53 @@
+<html>
+<header>
+   <title>Music Player</title>
+   <link rel="stylesheet" type="text/css" href="ipod.css"/>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</header>
+<body>
+   <div id="screen">
+     <div class="head-bar">
+      </a>
+      <div class="back-button"><i class="material-icons"><a class = "back-button" type="button" onclick="link" href = "songs.html">arrow_back</a></i></div>
+   </div>
+   <img class = "player-album-art" src="images/cbook.jpg" alt="Coloring Book Album Cover"/>
+   <div>
+      <p id = "player-song-name">All We Got</p>
+      <p id = "player-album-info"><em>Coloring Book</em> - Chance The Rapper</p>
+   </div>
+   <div class="slider_bar">
+      <input type="range" class="time_selector" id="time_selector" value="0" min="0" max="180">
+   </div>
+   <div class="times">
+      <div id="start">0:00</div>
+      <div id="end">3:00</div>
+   </div>
+   <div class="player_controls">
+      <button onclick="prevSong()" tabindex="0" aria-label="Previous Song"><i class="material-icons">skip_previous</i></button>
+      <button onclick="switchPlay()" tabindex = "1" id="playpause" aria-label="Play/Pause"><i class="material-icons">play_arrow</i></button>
+      <button onclick="nextSong()" tabindex="2" aria-label="Next Song"><i class="material-icons">skip_next</i></button>
+   </div>
+
+   <div class="volume-bar">
+      <div id="volume_down" alt="volume logo to represent volume bar"><i class=material-icons>volume_down</i></div>
+      <div id="vl0" class="box" aria-label="volume level indicator"> </div>
+      <div id="vl1" class="box" aria-label="volume level indicator"> </div>
+      <div id="vl2" class="box" aria-label="volume level indicator"> </div>
+      <div id="vl3" class="box" aria-label="volume level indicator"> </div>
+      <div id="vl4" class="box" aria-label="volume level indicator"> </div>
+      <div id="vl5" class="box" aria-label="volume level indicator"> </div>
+   </div>
+
+   <script src="ipod.js"></script>
+
+   <div class = "volume_control">
+      <button id= "up" onclick="volDown()" tabindex="3" aria-label="volume up button">-</button>
+      <button id= "down" onclick="volUp()" tabindex="4" aria-label="volume down button">+</button>
+   </div>
+</div>
+</body>
+</html>
+<!-- 
+* bg iphone img is 363x762px
+* iphone 'screen' is apprx 300x530 -->

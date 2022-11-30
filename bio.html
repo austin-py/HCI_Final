@@ -11,10 +11,26 @@
       content="This page includes a small biography for Austin Porras"
     />
 
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="style.css" />
 
   </head>
   <body>
+    <nav role="navigation" class="top-nav">
+        <ul>
+            <li nav aria-current = page  tabIndex=0><a type="button" onclick="link" href="index.html">Home</a></li>
+            <li tabIndex=1><a type="button" onclick="link" href="bio.html">Bio</a></li>
+            <li tabIndex=2><a type="button" onclick="link" href="contact_info.html">Contact</a></li>
+            <li tabIndex=3><a type="button" onclick="link" href="resume.html">Resume</a></li>
+            <li tabIndex=4><a aria-haspopup="true" aria-expanded= "false">Projects</a>
+                <ul class = "pulldown-menu">
+                    <li tabIndex = 5><a type="button" onclick="link" href="project1_info.html">Looping Animation</a></li>
+                    <li tabIndex = 6><a type="button" onclick="link" href="project2_info.html">Particle Animation</a></li>
+                    <li tabIndex = 7><a type="button" onclick="link" href="project3_info.html">Music Player</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
     <div class="wrapper">
       <div class="content" role="main">
         <h1 class="title">Austin Porras</h1>

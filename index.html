@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,23 +8,25 @@
 
     <meta
       name="description"
+      charset="utf-8"
       content="Austin Porras' personal portfolio website"
     />
 
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet"  href="style.css" />
 
   </head>
   <body>
     <nav role="navigation" class="top-nav">
         <ul>
-            <li nav aria-current = page  tabIndex=0>Home</li>
-            <li tabIndex=1>Bio</li>
-            <li tabIndex=2>Contact</li>
-            <li tabIndex=3>Resume</li>
+            <li nav aria-current = page  tabIndex=0><a type="button" onclick="link" href="index.html">Home</a></li>
+            <li tabIndex=1><a type="button" onclick="link" href="bio.html">Bio</a></li>
+            <li tabIndex=2><a type="button" onclick="link" href="contact_info.html">Contact</a></li>
+            <li tabIndex=3><a type="button" onclick="link" href="resume.html">Resume</a></li>
             <li tabIndex=4><a aria-haspopup="true" aria-expanded= "false">Projects</a>
                 <ul class = "pulldown-menu">
-                    <li tabIndex = 5>PROJECT 1</li>
-                    <li tabIndex = 6>PROJECT 2</li>
+                    <li tabIndex = 5><a type="button" onclick="link" href="project1_info.html">Looping Animation</a></li>
+                    <li tabIndex = 6><a type="button" onclick="link" href="project2_info.html">Particle animation</a></li>
+                    <li tabIndex = 7><a type="button" onclick="link" href="project3_info.html">Music Player</a></li>
                 </ul>
             </li>
         </ul>
@@ -34,16 +36,24 @@
       <div class="content" role="main">
         <h1 class="title">Austin Porras</h1>
 
-        <img
-          src= "https://images.pexels.com/photos/210243/pexels-photo-210243.jpeg?cs=srgb&dl=pexels-pixabay-210243.jpg&fm=jpg"
-          class="illustration"
-          alt="Picture of mountains"
-        />
+        <img class="headshot" src="https://media-exp1.licdn.com/dms/image/C4E03AQF56HeADdMLdQ/profile-displayphoto-shrink_800_800/0/1609975688539?e=1675296000&v=beta&t=5EUMcgHXz_MuVrXtu1OJ5WIKUgzzfcZa1ld3l3-kRE0"
+                              alt="Picture of Austin"/> 
+        <h2 class="project-title">
+          Projects: 
+        </h2>
 
-        <div class="Projects">
-          <h2>
-            Projects: 
-          </h2>
+        <div class="projects">
+          <iframe src="loop.gif" width = 550px height = 600px alt="Looping animation made of circles forming a geometric pattern"></iframe>
+          <a type="button" onclick="link" href = "project1_info.html"> click for information about this project</a>
+
+
+          <iframe src="particles.gif" width = 750px height = 500px alt="Particle animation of circles coming towards center then exploding outwards"></iframe>
+          <a type="button" onclick="link" href = "project2_info.html"> click for information about this project</a>
+          
+          <iframe src="albums.html" width = 350px height = 750px alt="Music player/Fake iPod"></iframe>
+          Try clicking on Chance's Album! <br>
+          <a type="button" onclick="link" href = "project3_info.html"> click for information about this project</a>
+          
         </div>
 
       </div>

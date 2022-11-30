@@ -1,0 +1,216 @@
+/* 
+	Global classes 
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+	background-color: white;
+}
+
+.head-bar {
+	background-color: pink;
+	height: 45px;
+}
+
+.head-bar h1{
+	text-align: center;
+	color: white;
+	height: 45px;
+	text-shadow: 1px 1px black;
+}
+
+.back-button {
+	vertical-align: top;
+	background-color: pink;
+	border: 0px;
+	text-shadow: 0px 0px pink;
+	height: 45px;
+	font-size: larger;
+}
+
+/* 
+	Albums 
+			*/
+#albums {
+	display: table;
+	padding-top: 15px;
+}
+
+.row {
+	display: inline-block;
+	width: 150px;
+}
+
+.albums-album-wrapper {
+	background-color: white;
+}
+
+.albums-album-art {
+	height: 125px;
+	width: 125px;
+	margin: 12px;
+}
+
+#albums-album-name {
+	text-align: center;
+	font-weight: bold;
+	font-size: small;
+}
+
+#albums-artist-name {
+	text-align: center;
+	font-size: smaller;
+
+}
+
+/* 
+	Songs 
+			*/
+.songs-info-wrapper {
+	background-color: white;
+}
+
+.song-album-art {
+	width: 125px;
+	height: 125px;
+	margin: 10px;
+}
+
+#songs-album-name {
+	text-align:  center;
+	font-weight: bolder;
+	font-size: larger;
+
+}
+
+#songs-artist-name {
+	font-style: italic;
+	text-align: center;
+}
+
+.songs-text-info {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#songs-album-year {
+	text-align: center;
+}
+
+#songs-list {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 20px;
+}
+
+li {
+	text-align: left;
+	border: 1px solid grey;
+	margin: 8px;
+}
+/* 
+	Player 
+			*/
+.player-album-art {
+	align-items: center;
+	height: 250px;
+	width: 250px;
+	margin:25px;
+	margin-bottom: 10px;
+}
+
+#player-album-info {
+	text-align: center;
+	margin-top: 0px;
+	color: rgb(199, 110, 199);
+}
+
+#player-song-name {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.slider_bar {
+	align-items: center;
+	text-align: center;
+}
+
+.slider_bar .time_selector {
+	width: 250px;
+}
+
+.times {
+	display: flex;
+}
+
+.times #start {
+	padding-left: 25px;
+	text-align: left;
+}
+
+.times #end {
+	padding-left:190px;
+	text-align: right;
+}
+
+.player_controls {
+	text-align: center;
+}
+
+.volume-bar .box {
+	height: 6px;
+	width: 24px;
+	border: 1px solid black;
+	margin: 5px;
+}
+
+.volume-bar {
+	margin-top: 10px;
+	display: flex;
+	text-align: center;
+	padding-left: 30px;
+}
+
+
+.volume_control {
+	text-align: center;
+}
+
+.volume_control #up {
+	width: 75px;
+	height: 15px;
+	margin-right: 60px;
+	border: 1px solid black;
+	background-color: white;
+	border-radius: 25px;
+}
+
+.volume_control #down { 
+	width: 75px;
+	height: 15px;
+	border: 1px solid black;
+	background-color: white;
+	border-radius: 25px;
+}
+
+#player-time {
+	
+}
+
+#time-elapsed {
+	
+}
+
+#time-total{
+	
+}

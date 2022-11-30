@@ -1,0 +1,106 @@
+
+h1.title {
+    text-align: center;
+    margin-top: 75px;
+}
+
+div.content img.headshot {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-title {
+    margin-top: 100px;
+    text-align: center;
+}
+
+nav.top-nav{
+    background-color: rgba(128, 128, 128, 0.458);
+    position: fixed;
+    top: 0px;
+    right: 0px; 
+    left: 0px; 
+    box-shadow: 0px 4px 4px lightgray;
+}
+
+nav [aria-current=page]{
+    background-color: rgba(211, 211, 211, 0.292);
+    color: #000;
+    text-decoration: none;
+    font-weight: bolder;
+    border-bottom: .25em solid rgba(211, 211, 211, 0.292);
+}
+
+main{
+    margin-top: 100px;
+    margin-left: 2em;
+}
+
+nav.top-nav li{
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    user-select: none;
+}
+
+
+nav.top-nav ul{
+    list-style: none;
+}
+
+nav.top-nav .pulldown-menu{
+    display:none;
+    position: absolute;
+    border: 1px solid rgba(211, 211, 211, 0.292); 
+    background-color: rgba(211, 211, 211);
+}
+
+nav.top-nav li:hover .pulldown-menu{
+    display:block;
+}
+
+nav.top-nav .pulldown-menu li{
+    display:block;
+}
+
+.contact-info {
+    margin-top: 100px;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Resume {
+    margin-top: 100px
+}
+
+nav.top-nav a {
+    text-decoration: none;
+}
+
+div.projects iframe{
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+    border: none;
+}
+
+div.projects {
+    text-align: center;
+    flex-flow: column;
+}
+
+
+/* TODO TRY TO REMOVE HIGHLIGHT AND UNDERLINE FOR ANCHORS */
+/* TODO ADD FUNCTIONALITY TO OTHER ALBUMNS IN IPOD  */
+
+
+/* NEEDED: 
+- Write & Format Bio 
+- Write up  & Format project descriptions 
+- Make it all look a bit better 
+*/
