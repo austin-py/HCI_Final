@@ -94,13 +94,70 @@ div.projects {
     flex-flow: column;
 }
 
+div.hobbies {
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.hobbies div{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div.hobbies img{
+    width: 200px;
+    height: auto;
+}
+
+div.hobbies p{
+    text-align: center;
+}
+
+
+div.Bio p.general {
+    text-align: center;
+    display: flex;
+    margin: 50px;
+    font-size: larger;
+}
+
+div.Bio p.hobby {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: larger;
+}
+
+div.Resume iframe {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+    border: none;
+}
+
+div.project_info {
+    margin-top: 75px;
+}
+
+div.project_info p{
+    text-align: center;
+    display: flex;
+    margin: 50px;
+    font-size: larger;
+}
+
+div.project_info iframe {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+    border: none;
+}
 
 /* TODO TRY TO REMOVE HIGHLIGHT AND UNDERLINE FOR ANCHORS */
 /* TODO ADD FUNCTIONALITY TO OTHER ALBUMNS IN IPOD  */
-
+/* TODO Make it look better  */
 
 /* NEEDED: 
-- Write & Format Bio 
-- Write up  & Format project descriptions 
-- Make it all look a bit better 
+- Host on Github 
 */
